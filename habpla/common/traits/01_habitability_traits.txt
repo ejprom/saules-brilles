@@ -1,0 +1,15 @@
+@primary = 0.80
+@secondary = 0.60
+@tertiary = 0.20
+
+trait_pc_desert_preference = {
+  icon = "gfx/interface/icons/traits/trait_pc_desert_preference.dds"
+  modifier = {
+    pc_desert_habitability = @primary 
+    pc_molten_habitability = @secondary
+    pc_arid_habitability = @secondary
+    pc_tropical_habitability = @secondary
+    pc_continental_habitability = @tertiary
+    pc_tundra_habitability = @tertiary
+  }
+}
